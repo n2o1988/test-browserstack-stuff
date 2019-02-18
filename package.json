@@ -1,0 +1,20 @@
+{
+  "name": "browserstack-failure",
+  "version": "1.0.0",
+  "description": "Testing Browserstack Firefox failures",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require babel-register test.js --slow 5000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-register": "6.26.0",
+    "mocha": "5.2.0",
+    "selenium-webdriver": "3.6.0",
+    "babel-plugin-syntax-trailing-function-commas": "6.22.0",
+    "babel-plugin-transform-class-properties": "6.22.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "6.22.0",
+    "babel-plugin-syntax-object-rest-spread": "6.13.0"
+  }
+}
