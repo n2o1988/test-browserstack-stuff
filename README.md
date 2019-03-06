@@ -13,6 +13,9 @@ Run the tests, passing credentials:
 BROWSERSTACK_USER=<...> BROWSERSTACK_KEY=<...> yarn test
 ```
 
+## UPDATE: Issue fixed
+The issue was fixed on Browserstack side on March 4th 2019.
+
 ## The problem
 This simple mocha test demonstrate an issue with selenium-webdriver@3.6.0 (the latest stable release of the javascript bindings for Selenium WebDriver) and Browserstack when using Firefox and any version of Selenium > 3.6.0. 
 
